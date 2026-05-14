@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "https://fov151.github.io/playgroup-hugo/"
 languageCode = "en-gb"
 title = "Terrington Playgroup"
