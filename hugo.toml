@@ -1,22 +1,22 @@
 baseURL = "https://fov151.github.io/playgroup-hugo/"
 languageCode = "en-gb"
-title = "Sunflower Playgroup"
+title = "Terrington Playgroup"
 theme = "sprouts"
 
 [params]
-  description  = "A warm, friendly playgroup for babies, toddlers and pre-schoolers in York. Come and join us!"
-  tagline      = "Play, friendship and learning for little ones in York."
-  location     = "York, North Yorkshire"
-  logoEmoji    = "🌻"
+  description  = "A warm, friendly playgroup for babies, toddlers and pre-schoolers in Terrington. Come and join us!"
+  tagline      = "Play, friendship and learning for little ones in Terrington."
+  location     = "Terrington, North Yorkshire"
+  logoEmoji    = "🌳"
   bookingURL   = "/contact"
-  email        = "hello@sunflowerplaygroup.co.uk"
+  email        = "hello@terringtonplaygroup.co.uk"
   phone        = "07700 900123"
-  address      = "St. Peter's Church Hall, York YO1 7HH"
+  address      = "Terrington Village Hall, Terrington, YO19 6JQ"
   facebook     = "https://facebook.com/"
   instagram    = "https://instagram.com/"
 
-  heroHeading  = "Where little ones bloom together"
-  heroSubtext  = "A drop-in playgroup for babies, toddlers and pre-schoolers. Friendly, relaxed and full of fun — every week in York."
+heroHeading  = "Where little ones play together"
+heroSubtext  = "A drop-in playgroup for babies, toddlers and pre-schoolers. Friendly, relaxed and full of fun — every week in Terrington."
   
   sessionsHeading = "Our weekly sessions"
   sessionsSubtext = "All sessions are drop-in. No booking required — just turn up!"
@@ -40,18 +40,18 @@ theme = "sprouts"
   [[params.sessions]]
     day      = "Monday"
     time     = "9:30 – 11:30am"
-    location = "St. Peter's Church Hall"
+    location = "Terrington Village Hall"
     price    = "£2"
   [[params.sessions]]
     day      = "Wednesday"
     time     = "9:30 – 11:30am"
-    location = "Acomb Village Hall"
+    location = "Terrington Village Hall"
     notes    = "Messy play week!"
     price    = "£2"
   [[params.sessions]]
     day      = "Friday"
     time     = "10:00am – 12:00pm"
-    location = "St. Peter's Church Hall"
+    location = "Terrington Village Hall"
     price    = "Free"
     notes    = "Stay & play — free session"
 
@@ -81,7 +81,7 @@ theme = "sprouts"
     description = "Tea, coffee and biscuits while children play. Make new friends and share advice."
 
   [[params.testimonials]]
-    quote = "Sunflower has been brilliant for us. My little one was shy at first but has completely come out of her shell. The volunteers are so warm and welcoming."
+    quote = "Terrington has been brilliant for us. My little one was shy at first but has completely come out of her shell. The volunteers are so warm and welcoming."
     name  = "Sarah M."
     child = "Lily, aged 2"
   [[params.testimonials]]
@@ -89,7 +89,7 @@ theme = "sprouts"
     name  = "James & Priya"
     child = "twins Ollie & Asha, 18 months"
   [[params.testimonials]]
-    quote = "As a new mum moving to York, finding Sunflower Playgroup was a lifeline. I've made so many friends here and my son absolutely loves it."
+    quote = "As a new mum moving to Terrington, finding Terrington Playgroup was a lifeline. I've made so many friends here and my son absolutely loves it."
     name  = "Caitlin D."
     child = "Noah, aged 1"
 
