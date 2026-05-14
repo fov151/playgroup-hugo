@@ -21,7 +21,7 @@
         {{ end }}
       </ul>
       {{ with .Site.Params.bookingURL }}
-      <a href="{{ . }}" class="btn btn-primary nav-cta">Book a spot</a>
+      <a href="{{ . | absURL }}" class="btn btn-primary nav-cta">Book a spot</a>
       {{ end }}
     </nav>
   </div>

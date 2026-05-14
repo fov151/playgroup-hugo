@@ -13,8 +13,8 @@
       <h1>{{ .Site.Params.heroHeading | default "A place where little ones bloom" }}</h1>
       <p class="hero-sub">{{ .Site.Params.heroSubtext | default "Join our friendly playgroup and give your child the joy of play, friendship, and learning — every week." }}</p>
       <div class="hero-actions">
-        {{ with .Site.Params.bookingURL }}<a href="{{ . | relURL }}" class="btn btn-primary">Reserve your place</a>{{ end }}
-        <a href="{{ "/about" | relURL }}" class="btn btn-ghost">Find out more</a>
+        {{ with .Site.Params.bookingURL }}<a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-primary">Reserve your place</a>{{ end }}
+        <a href="{{ "about" | absURL }}" class="btn btn-ghost">Find out more</a>
       </div>
       <div class="hero-badges">
         {{ range .Site.Params.heroBadges }}
@@ -110,7 +110,7 @@
   <div class="container">
     <div class="section-header">
       <h2>Latest from the group</h2>
-      <a href="{{ "/posts" | relURL }}" class="section-link">See all posts &rarr;</a>
+      <a href="{{ "posts" | absURL }}" class="section-link">See all posts &rarr;</a>
     </div>
     <div class="news-grid">
       {{ range first 3 $posts }}
@@ -138,7 +138,7 @@
     <h2>{{ .Site.Params.ctaHeading | default "Ready to join the fun?" }}</h2>
     <p>{{ .Site.Params.ctaText | default "New families always welcome. Come along and see what we're about." }}</p>
     {{ with .Site.Params.bookingURL }}
-    <a href="{{ . | relURL }}" class="btn btn-white">Book your first session</a>
+    <a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-white">Book your first session</a>
     {{ end }}
   </div>
 </section>
