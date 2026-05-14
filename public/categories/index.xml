@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Sunflower Playgroup</title><link>https://yourplaygroup.co.uk/categories/</link><description>Recent content in Categories on Sunflower Playgroup</description><generator>Hugo</generator><language>en-gb</language><atom:link href="https://yourplaygroup.co.uk/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Terrington Playgroup</title>
+    <link>https://fov151.github.io/playgroup-hugo/categories/</link>
+    <description>Recent content in Categories on Terrington Playgroup</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <atom:link href="https://fov151.github.io/playgroup-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
