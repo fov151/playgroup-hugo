@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-inner container">
-    <a href="{{ "/" | relURL }}" class="site-logo" aria-label="{{ .Site.Title }} home">
+    <a href="{{ .Site.BaseURL }}" class="site-logo" aria-label="{{ .Site.Title }} home">
       {{ with .Site.Params.logoEmoji }}<span class="logo-emoji" aria-hidden="true">{{ . }}</span>{{ end }}
       <span class="logo-text">{{ .Site.Title }}</span>
     </a>
