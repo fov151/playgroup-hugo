@@ -1,0 +1,135 @@
+baseURL = "https://yourplaygroup.co.uk/"
+languageCode = "en-gb"
+title = "Sunflower Playgroup"
+theme = "sprouts"
+
+[params]
+  description  = "A warm, friendly playgroup for babies, toddlers and pre-schoolers in York. Come and join us!"
+  tagline      = "Play, friendship and learning for little ones in York."
+  location     = "York, North Yorkshire"
+  logoEmoji    = "🌻"
+  bookingURL   = "/contact"
+  email        = "hello@sunflowerplaygroup.co.uk"
+  phone        = "07700 900123"
+  address      = "St. Peter's Church Hall, York YO1 7HH"
+  facebook     = "https://facebook.com/"
+  instagram    = "https://instagram.com/"
+
+  heroHeading  = "Where little ones bloom together"
+  heroSubtext  = "A drop-in playgroup for babies, toddlers and pre-schoolers. Friendly, relaxed and full of fun — every week in York."
+  
+  sessionsHeading = "Our weekly sessions"
+  sessionsSubtext = "All sessions are drop-in. No booking required — just turn up!"
+  featuresHeading = "What we get up to"
+  ctaHeading      = "Ready to come along?"
+  ctaText         = "We love meeting new families. Your first session is always free!"
+
+  [[params.heroBadges]]
+    emoji = "👶"
+    text = "0–5 years"
+  [[params.heroBadges]]
+    emoji = "☕"
+    text = "Tea & coffee"
+  [[params.heroBadges]]
+    emoji = "💷"
+    text = "£2 per family"
+  [[params.heroBadges]]
+    emoji = "❤️"
+    text = "All welcome"
+
+  [[params.sessions]]
+    day      = "Monday"
+    time     = "9:30 – 11:30am"
+    location = "St. Peter's Church Hall"
+    price    = "£2"
+  [[params.sessions]]
+    day      = "Wednesday"
+    time     = "9:30 – 11:30am"
+    location = "Acomb Village Hall"
+    notes    = "Messy play week!"
+    price    = "£2"
+  [[params.sessions]]
+    day      = "Friday"
+    time     = "10:00am – 12:00pm"
+    location = "St. Peter's Church Hall"
+    price    = "Free"
+    notes    = "Stay & play — free session"
+
+  [[params.features]]
+    emoji       = "🎨"
+    title       = "Arts & Crafts"
+    description = "Creative play with paints, play-dough, glitter and more. We embrace the mess!"
+  [[params.features]]
+    emoji       = "📚"
+    title       = "Story Time"
+    description = "Shared stories, songs and rhymes to spark imagination and a love of books."
+  [[params.features]]
+    emoji       = "🎵"
+    title       = "Music & Movement"
+    description = "Singing, dancing and instrument play to get little bodies moving and grooving."
+  [[params.features]]
+    emoji       = "🧩"
+    title       = "Free Play"
+    description = "A wide range of age-appropriate toys, puzzles and games for independent exploration."
+  [[params.features]]
+    emoji       = "🌿"
+    title       = "Outdoor Time"
+    description = "Weather permitting, we head outside for fresh air, running around and nature play."
+  [[params.features]]
+    emoji       = "☕"
+    title       = "Parent Chat"
+    description = "Tea, coffee and biscuits while children play. Make new friends and share advice."
+
+  [[params.testimonials]]
+    quote = "Sunflower has been brilliant for us. My little one was shy at first but has completely come out of her shell. The volunteers are so warm and welcoming."
+    name  = "Sarah M."
+    child = "Lily, aged 2"
+  [[params.testimonials]]
+    quote = "We come every Monday and Wednesday. It's the highlight of our week! The messy play sessions are absolutely brilliant — even if the washing afterwards isn't!"
+    name  = "James & Priya"
+    child = "twins Ollie & Asha, 18 months"
+  [[params.testimonials]]
+    quote = "As a new mum moving to York, finding Sunflower Playgroup was a lifeline. I've made so many friends here and my son absolutely loves it."
+    name  = "Caitlin D."
+    child = "Noah, aged 1"
+
+[menu]
+  [[menu.main]]
+    name   = "Home"
+    url    = "/"
+    weight = 1
+  [[menu.main]]
+    name   = "About"
+    url    = "/about"
+    weight = 2
+  [[menu.main]]
+    name   = "Sessions"
+    url    = "/#sessions"
+    weight = 3
+  [[menu.main]]
+    name   = "News"
+    url    = "/posts"
+    weight = 4
+  [[menu.main]]
+    name   = "Contact"
+    url    = "/contact"
+    weight = 5
+
+  [[menu.footer]]
+    name = "Home"
+    url  = "/"
+  [[menu.footer]]
+    name = "About Us"
+    url  = "/about"
+  [[menu.footer]]
+    name = "Sessions"
+    url  = "/#sessions"
+  [[menu.footer]]
+    name = "Blog"
+    url  = "/posts"
+  [[menu.footer]]
+    name = "Contact"
+    url  = "/contact"
+  [[menu.footer]]
+    name = "Privacy Policy"
+    url  = "/privacy"

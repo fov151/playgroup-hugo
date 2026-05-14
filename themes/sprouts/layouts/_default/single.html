@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="single-page">
+  <header class="page-hero container">
+    {{ with .Params.emoji }}<div class="page-emoji" aria-hidden="true">{{ . }}</div>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+    {{ if not .Params.hideMeta }}
+    <div class="page-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    </div>
+    {{ end }}
+  </header>
+  <div class="page-body container prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

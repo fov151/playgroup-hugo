@@ -1,0 +1,38 @@
+<header class="site-header">
+  <div class="header-inner container">
+    <a href="{{ "/" | relURL }}" class="site-logo" aria-label="{{ .Site.Title }} home">
+      {{ with .Site.Params.logoEmoji }}<span class="logo-emoji" aria-hidden="true">{{ . }}</span>{{ end }}
+      <span class="logo-text">{{ .Site.Title }}</span>
+    </a>
+
+    <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL | absURL }}"
+             {{ if ($.IsMenuCurrent "main" .) }}aria-current="page"{{ end }}>
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ with .Site.Params.bookingURL }}
+      <a href="{{ . }}" class="btn btn-primary nav-cta">Book a spot</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav    = document.querySelector('.primary-nav');
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('is-open', !open);
+  });
+</script>

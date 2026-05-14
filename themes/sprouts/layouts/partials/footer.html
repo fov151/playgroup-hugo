@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="footer-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--green)"/>
+    </svg>
+  </div>
+  <div class="footer-body">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-emoji" aria-hidden="true">{{ .Site.Params.logoEmoji | default "🌱" }}</span>
+        <strong>{{ .Site.Title }}</strong>
+        <p>{{ .Site.Params.tagline }}</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick links</h3>
+        <ul>
+          {{ range .Site.Menus.footer }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Get in touch</h3>
+        {{ with .Site.Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Site.Params.phone }}<p><a href="tel:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Site.Params.address }}<p>{{ . }}</p>{{ end }}
+        <div class="social-links">
+          {{ with .Site.Params.facebook }}<a href="{{ . }}" aria-label="Facebook" rel="noopener noreferrer" target="_blank">{{ partial "icon-facebook.html" . }}</a>{{ end }}
+          {{ with .Site.Params.instagram }}<a href="{{ . }}" aria-label="Instagram" rel="noopener noreferrer" target="_blank">{{ partial "icon-instagram.html" . }}</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. Made with love for little ones.</p>
+    </div>
+  </div>
+</footer>

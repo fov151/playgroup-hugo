@@ -1,0 +1,12 @@
+name = "Sprouts"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A warm, playful Hugo theme for local kids playgroups and family community groups."
+homepage = ""
+tags = ["playgroup", "children", "community", "family", "local"]
+features = ["blog", "events", "contact", "responsive"]
+min_version = "0.110.0"
+
+[author]
+  name = ""
+  homepage = ""
