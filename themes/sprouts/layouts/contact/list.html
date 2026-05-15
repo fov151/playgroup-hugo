@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="contact-page">
+  <header class="page-hero container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <div class="contact-intro">
+        {{ .Content }}
+      </div>
+
+      <div class="contact-details">
+        <div class="contact-card">
+          <h3>📧 Email</h3>
+          <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        </div>
+
+        <div class="contact-card">
+          <h3>📞 Phone</h3>
+          <p><a href="tel:{{ .Site.Params.phone | urlize }}">{{ .Site.Params.phone }}</a></p>
+        </div>
+
+        <div class="contact-card">
+          <h3>📍 Location</h3>
+          <p>{{ .Site.Params.address }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-map">
+      <div class="map-container">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-1.2250%2C53.9680%2C-1.1730%2C53.9790&amp;layer=mapnik&amp;marker=53.9736%2C-1.1993"
+          title="Terrington Village Hall location map"
+          aria-label="Map showing Terrington Village Hall location"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <p class="map-attribution">
+        <a href="https://www.openstreetmap.org/copyright" rel="noopener noreferrer" target="_blank">© OpenStreetMap contributors</a>
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}
