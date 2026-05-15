@@ -13,7 +13,7 @@
       <h1>{{ .Site.Params.heroHeading | default "A place where little ones bloom" }}</h1>
       <p class="hero-sub">{{ .Site.Params.heroSubtext | default "Join our friendly playgroup and give your child the joy of play, friendship, and learning — every week." }}</p>
       <div class="hero-actions">
-        {{ with .Site.Params.bookingURL }}<a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-primary">Reserve your place</a>{{ end }}
+        {{ with .Site.Params.bookingURL }}<a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-primary">Come for a play!</a>{{ end }}
         <a href="{{ "about" | absURL }}" class="btn btn-ghost">Find out more</a>
       </div>
       <div class="hero-badges">
