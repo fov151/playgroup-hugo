@@ -557,6 +557,18 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   opacity: 0.6;
 }
 
+/* ── HOLIDAY NOTICE ─────────────────────────────────── */
+.holiday-notice {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  background: rgba(255,255,255,0.5);
+  border-radius: var(--radius-md);
+  border: 2px dashed var(--sand);
+}
+
 /* ── CONTACT PAGE ─────────────────────────────── */
 .contact-page .page-hero { text-align: center; }
 .contact-inner {
