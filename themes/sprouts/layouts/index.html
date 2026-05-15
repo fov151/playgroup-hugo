@@ -63,6 +63,9 @@
   </div>
 </section>
 
+<!-- ── HOLIDAY NOTICE ────────────────────────────────────── -->
+<p class="holiday-notice">During school holidays some sessions are led by teachers from the local school.</p>
+
 <!-- ── WHAT WE OFFER ──────────────────────────────────────── -->
 <section class="features section section-alt" id="what-we-offer">
   <div class="container">
@@ -138,7 +141,7 @@
     <h2>{{ .Site.Params.ctaHeading | default "Ready to join the fun?" }}</h2>
     <p>{{ .Site.Params.ctaText | default "New families always welcome. Come along and see what we're about." }}</p>
     {{ with .Site.Params.bookingURL }}
-    <a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-white">Book your first session</a>
+    <a href="{{ . | strings.TrimPrefix "/" | absURL }}" class="btn btn-white">Come and play!</a>
     {{ end }}
   </div>
 </section>
