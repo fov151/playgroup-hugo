@@ -19,4 +19,4 @@ Sunflower is run entirely by a small team of dedicated volunteers — many of wh
 
 ## Get involved
 
-Looking to volunteer, donate toys or sponsor a session? We'd love to hear from you. Drop us an email at [hello@sunflowerplaygroup.co.uk](mailto:hello@sunflowerplaygroup.co.uk).
+Looking to volunteer, donate toys or sponsor a session? We'd love to hear from you. Drop us an email at [hello@terringtonplaygroup.co.uk](mailto:hello@terringtonplaygroup.co.uk).
