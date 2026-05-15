@@ -116,6 +116,3 @@ theme = "sprouts"
   [[menu.footer]]
     name = "Contact"
     url  = "/contact"
-  [[menu.footer]]
-    name = "Privacy Policy"
-    url  = "/privacy"

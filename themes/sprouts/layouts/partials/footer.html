@@ -25,11 +25,7 @@
         <h3>Get in touch</h3>
         {{ with .Site.Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
         {{ with .Site.Params.phone }}<p><a href="tel:{{ . }}">{{ . }}</a></p>{{ end }}
-        {{ with .Site.Params.address }}<p>{{ . }}</p>{{ end }}
-        <div class="social-links">
-          {{ with .Site.Params.facebook }}<a href="{{ . }}" aria-label="Facebook" rel="noopener noreferrer" target="_blank">{{ partial "icon-facebook.html" . }}</a>{{ end }}
-          {{ with .Site.Params.instagram }}<a href="{{ . }}" aria-label="Instagram" rel="noopener noreferrer" target="_blank">{{ partial "icon-instagram.html" . }}</a>{{ end }}
-        </div>
+{{ with .Site.Params.address }}<p>{{ . }}</p>{{ end }}
       </div>
     </div>
     <div class="footer-bottom container">
