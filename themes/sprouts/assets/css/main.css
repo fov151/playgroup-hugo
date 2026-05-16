@@ -662,7 +662,6 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
   padding-block: clamp(2.5rem, 6vw, 4rem);
   overflow: hidden;
   text-align: center;
-  margin-top: 2rem;
 }
 .no-booking-blobs { position: absolute; inset: 0; pointer-events: none; }
 .blob-nb-1 {

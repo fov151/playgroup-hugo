@@ -5,6 +5,19 @@
     {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
   </header>
 
+  <!-- ── NO BOOKING BANNER ────────────────────────────────────── -->
+  <section class="no-booking-banner">
+    <div class="no-booking-blobs" aria-hidden="true">
+      <div class="blob blob-nb-1"></div>
+      <div class="blob blob-nb-2"></div>
+    </div>
+    <div class="container no-booking-inner">
+      <div class="no-booking-icon" aria-hidden="true">🎉</div>
+      <h2>No booking needed!</h2>
+      <p>You don't need to book to join. Just come and join in the fun! Feel free to contact us on the details below.</p>
+    </div>
+  </section>
+
   <div class="container contact-inner">
     <div class="contact-info">
       <div class="contact-intro">
@@ -44,18 +57,5 @@
     </div>
   </div>
 </div>
-
-<!-- ── NO BOOKING BANNER ────────────────────────────────────── -->
-<section class="no-booking-banner">
-  <div class="no-booking-blobs" aria-hidden="true">
-    <div class="blob blob-nb-1"></div>
-    <div class="blob blob-nb-2"></div>
-  </div>
-  <div class="container no-booking-inner">
-    <div class="no-booking-icon" aria-hidden="true">🎉</div>
-    <h2>No booking needed!</h2>
-    <p>You don't need to book to join. Just come and join in the fun! Feel free to contact us on the details below.</p>
-  </div>
-</section>
 
 {{ end }}
