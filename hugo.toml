@@ -69,11 +69,11 @@ theme = "sprouts"
   [[params.testimonials]]
     quote = "My three boys have had a great time and made good friends. The grown up chat is a welcome break too. A great community."
     name  = "Sarah"
-    child = "mum of 3"
+    child = "Mum of 3"
   [[params.testimonials]]
     quote = "A very friendly group. I felt welcomed in as a grand mother and my grandson has a great time."
     name  = "Jill"
-    child = "grandmother"
+    child = "Grandmother"
   [[params.testimonials]]
     quote = "As a new mum moving to Terrington, finding Terrington Playgroup was a lifeline. I've made so many friends here and my son absolutely loves it."
     name  = "Caitlin D."
