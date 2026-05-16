@@ -71,9 +71,9 @@ theme = "sprouts"
     name  = "Sarah"
     child = "mum of 3"
   [[params.testimonials]]
-    quote = "We come every Wednesday. It's the highlight of our week! The messy play sessions are absolutely brilliant — even if the washing afterwards isn't!"
-    name  = "James & Priya"
-    child = "twins Ollie & Asha, 18 months"
+    quote = "A very friendly group. I felt welcomed in as a grand mother and my grandson has a great time."
+    name  = "Jill"
+    child = "grandmother"
   [[params.testimonials]]
     quote = "As a new mum moving to Terrington, finding Terrington Playgroup was a lifeline. I've made so many friends here and my son absolutely loves it."
     name  = "Caitlin D."
