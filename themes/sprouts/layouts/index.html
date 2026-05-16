@@ -97,7 +97,7 @@
         <p>{{ .quote }}</p>
         <footer>
           <strong>{{ .name }}</strong>
-          {{ with .child }}<span>parent of {{ . }}</span>{{ end }}
+          {{ with .child }}<span>{{ . }}</span>{{ end }}
         </footer>
       </blockquote>
       {{ end }}
