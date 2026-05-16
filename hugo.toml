@@ -67,9 +67,9 @@ theme = "sprouts"
     description = "Tea, coffee and biscuits while children play. Make new friends and share advice."
 
   [[params.testimonials]]
-    quote = "Terrington has been brilliant for us. My little one was shy at first but has completely come out of her shell. The volunteers are so warm and welcoming."
-    name  = "Sarah M."
-    child = "Lily, aged 2"
+    quote = "My three boys have had a great time and made good friends. The grown up chat is a welcome break too. A great community."
+    name  = "Sarah"
+    child = "mum of 3"
   [[params.testimonials]]
     quote = "We come every Wednesday. It's the highlight of our week! The messy play sessions are absolutely brilliant — even if the washing afterwards isn't!"
     name  = "James & Priya"
