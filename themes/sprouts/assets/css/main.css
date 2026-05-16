@@ -655,7 +655,54 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
 .prose th, .prose td { padding: 0.6rem 1rem; border: 2px solid var(--sand); text-align: left; }
 .prose th { background: var(--warm); font-weight: 800; }
 
+/* ── NO BOOKING BANNER ─────────────────────────── */
+.no-booking-banner {
+  position: relative;
+  background: linear-gradient(135deg, var(--mint) 0%, var(--warm) 100%);
+  padding-block: clamp(2.5rem, 6vw, 4rem);
+  overflow: hidden;
+  text-align: center;
+  margin-top: 2rem;
+}
+.no-booking-blobs { position: absolute; inset: 0; pointer-events: none; }
+.blob-nb-1 {
+  width: 280px; height: 280px;
+  background: rgba(109,191,103,0.12);
+  top: -80px; left: -60px;
+  animation-delay: -3s;
+}
+.blob-nb-2 {
+  width: 220px; height: 220px;
+  background: rgba(255,209,102,0.18);
+  bottom: -60px; right: -40px;
+  animation-delay: -7s;
+}
+.no-booking-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+.no-booking-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.no-booking-banner h2 {
+  font-family: var(--font-display);
+  color: var(--bark);
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+}
+.no-booking-banner p {
+  color: var(--bark);
+  max-width: 480px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
 /* ── PRINT ───────────────────────────────────── */
 @media print {
-  .site-header, .site-footer, .hero-blobs, .cta-banner { display: none; }
+  .site-header, .site-footer, .hero-blobs, .cta-banner, .no-booking-banner { display: none; }
 }
